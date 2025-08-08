@@ -2,7 +2,7 @@
 //  City.swift
 //  WhatsNext
 //
-//  Created by Allan Constanza on 8/7/25.
+//  Created by Allan Constanza 
 //
 
 import Foundation
