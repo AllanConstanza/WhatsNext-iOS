@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		15E997A82E45308D00E8F2FD /* CityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997A62E45308D00E8F2FD /* CityDetailView.swift */; };
+		15E997A92E45308D00E8F2FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997A72E45308D00E8F2FD /* HomeView.swift */; };
+		15E997AA2E45308D00E8F2FD /* CityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997A52E45308D00E8F2FD /* CityCardView.swift */; };
+		15E997AC2E4530AB00E8F2FD /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997AB2E4530AB00E8F2FD /* City.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		15E997872E452F6C00E8F2FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		15E997792E452F6900E8F2FD /* WhatsNext - IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatsNext - IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E997862E452F6C00E8F2FD /* WhatsNext - IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhatsNext - IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E997902E452F6C00E8F2FD /* WhatsNext - IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhatsNext - IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E997A52E45308D00E8F2FD /* CityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCardView.swift; sourceTree = "<group>"; };
+		15E997A62E45308D00E8F2FD /* CityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailView.swift; sourceTree = "<group>"; };
+		15E997A72E45308D00E8F2FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		15E997AB2E4530AB00E8F2FD /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +86,8 @@
 		15E997702E452F6900E8F2FD = {
 			isa = PBXGroup;
 			children = (
+				15E997A42E452FCB00E8F2FD /* Models */,
+				15E997A32E452FBE00E8F2FD /* Views */,
 				15E9977B2E452F6900E8F2FD /* WhatsNext - IOS */,
 				15E997892E452F6C00E8F2FD /* WhatsNext - IOSTests */,
 				15E997932E452F6C00E8F2FD /* WhatsNext - IOSUITests */,
@@ -90,6 +103,24 @@
 				15E997902E452F6C00E8F2FD /* WhatsNext - IOSUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		15E997A32E452FBE00E8F2FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15E997A52E45308D00E8F2FD /* CityCardView.swift */,
+				15E997A62E45308D00E8F2FD /* CityDetailView.swift */,
+				15E997A72E45308D00E8F2FD /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15E997A42E452FCB00E8F2FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15E997AB2E4530AB00E8F2FD /* City.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E997AC2E4530AB00E8F2FD /* City.swift in Sources */,
+				15E997A82E45308D00E8F2FD /* CityDetailView.swift in Sources */,
+				15E997A92E45308D00E8F2FD /* HomeView.swift in Sources */,
+				15E997AA2E45308D00E8F2FD /* CityCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
