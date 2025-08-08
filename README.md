@@ -11,7 +11,7 @@
 
 | Home  | Search Bar | No Results | City Details |
 |--------------|-------------|-------------|-------------|
-| ![Home]("Screenshots/Home Screen.png") | ![Search Bar](Screenshots/Search.png) | ![No Results]("Screenshots/No Results.png") | ![City Details]("Screenshots/City Details.png")
+| ![Home](./Screenshots/Home%20Screen.png) | ![Search Bar](./Screenshots/Search.png) | ![No Results](./Screenshots/No%20Results.png) | ![City Details](./Screenshots/City%20Details.png)
 
 ---
 
