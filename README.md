@@ -50,10 +50,27 @@ Planned future updates:
    ```bash
    git clone https://github.com/AllanConstanza/WhatsNext-iOS.git
    cd WhatsNext-iOS
+   
 2. **Open in Xcode**
 
-Open WhatsNext - IOS.xcodeproj in Xcode.
+- Open WhatsNext - IOS.xcodeproj in Xcode.
+- Copy Secrets.example.plist to Secrets.plist.
+- Open Secrets.plist and set:
+TM_API_KEY = your real Ticketmaster key
+
+- In Xcode, select Secrets.plist and ensure Target Membership is checked for the app target.
 
 3. **Run**
 
 Select an iPhone simulator (iPhone 15 recommended) and press Run.
+
+    
+   **Notes:**
+
+Secrets.plist is ignored by Git; only the example file is committed.
+
+If you see “Missing TM_API_KEY”, make sure Secrets.plist exists and is part of the
+app target (File Inspector → Target Membership).
+
+
+

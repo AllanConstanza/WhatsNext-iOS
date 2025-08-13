@@ -11,6 +11,14 @@
 		15E997A92E45308D00E8F2FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997A72E45308D00E8F2FD /* HomeView.swift */; };
 		15E997AA2E45308D00E8F2FD /* CityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997A52E45308D00E8F2FD /* CityCardView.swift */; };
 		15E997AC2E4530AB00E8F2FD /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997AB2E4530AB00E8F2FD /* City.swift */; };
+		15E997BC2E46A60800E8F2FD /* Home Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E997B82E46A60800E8F2FD /* Home Screen.png */; };
+		15E997BD2E46A60800E8F2FD /* City Details.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E997B72E46A60800E8F2FD /* City Details.png */; };
+		15E997BE2E46A60800E8F2FD /* No Results.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E997B92E46A60800E8F2FD /* No Results.png */; };
+		15E997BF2E46A60800E8F2FD /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E997BA2E46A60800E8F2FD /* Search.png */; };
+		15E997C92E4BFF2A00E8F2FD /* TicketmasterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997C82E4BFF2400E8F2FD /* TicketmasterModels.swift */; };
+		15E997CC2E4C04F300E8F2FD /* TicketmasterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997CB2E4C000400E8F2FD /* TicketmasterAPI.swift */; };
+		15E997D52E4C0DD800E8F2FD /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15E997D42E4C0DD800E8F2FD /* Secrets.plist */; };
+		15E997D72E4C0ECE00E8F2FD /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E997D62E4C0ECB00E8F2FD /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,15 @@
 		15E997A62E45308D00E8F2FD /* CityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailView.swift; sourceTree = "<group>"; };
 		15E997A72E45308D00E8F2FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		15E997AB2E4530AB00E8F2FD /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		15E997B72E46A60800E8F2FD /* City Details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City Details.png"; sourceTree = "<group>"; };
+		15E997B82E46A60800E8F2FD /* Home Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Screen.png"; sourceTree = "<group>"; };
+		15E997B92E46A60800E8F2FD /* No Results.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "No Results.png"; sourceTree = "<group>"; };
+		15E997BA2E46A60800E8F2FD /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		15E997C82E4BFF2400E8F2FD /* TicketmasterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketmasterModels.swift; sourceTree = "<group>"; };
+		15E997CB2E4C000400E8F2FD /* TicketmasterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketmasterAPI.swift; sourceTree = "<group>"; };
+		15E997D42E4C0DD800E8F2FD /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		15E997D62E4C0ECB00E8F2FD /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		15E997E22E4D52B400E8F2FD /* Secrets.example.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.example.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -86,6 +103,10 @@
 		15E997702E452F6900E8F2FD = {
 			isa = PBXGroup;
 			children = (
+				15E997E22E4D52B400E8F2FD /* Secrets.example.plist */,
+				15E997D42E4C0DD800E8F2FD /* Secrets.plist */,
+				15E997CA2E4BFFF900E8F2FD /* Services */,
+				15E997BB2E46A60800E8F2FD /* Screenshots */,
 				15E997A42E452FCB00E8F2FD /* Models */,
 				15E997A32E452FBE00E8F2FD /* Views */,
 				15E9977B2E452F6900E8F2FD /* WhatsNext - IOS */,
@@ -118,9 +139,30 @@
 		15E997A42E452FCB00E8F2FD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				15E997C82E4BFF2400E8F2FD /* TicketmasterModels.swift */,
 				15E997AB2E4530AB00E8F2FD /* City.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		15E997BB2E46A60800E8F2FD /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				15E997B72E46A60800E8F2FD /* City Details.png */,
+				15E997B82E46A60800E8F2FD /* Home Screen.png */,
+				15E997B92E46A60800E8F2FD /* No Results.png */,
+				15E997BA2E46A60800E8F2FD /* Search.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		15E997CA2E4BFFF900E8F2FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				15E997D62E4C0ECB00E8F2FD /* Secrets.swift */,
+				15E997CB2E4C000400E8F2FD /* TicketmasterAPI.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +285,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E997BC2E46A60800E8F2FD /* Home Screen.png in Resources */,
+				15E997BD2E46A60800E8F2FD /* City Details.png in Resources */,
+				15E997BE2E46A60800E8F2FD /* No Results.png in Resources */,
+				15E997BF2E46A60800E8F2FD /* Search.png in Resources */,
+				15E997D52E4C0DD800E8F2FD /* Secrets.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15E997AC2E4530AB00E8F2FD /* City.swift in Sources */,
+				15E997D72E4C0ECE00E8F2FD /* Secrets.swift in Sources */,
 				15E997A82E45308D00E8F2FD /* CityDetailView.swift in Sources */,
+				15E997CC2E4C04F300E8F2FD /* TicketmasterAPI.swift in Sources */,
+				15E997C92E4BFF2A00E8F2FD /* TicketmasterModels.swift in Sources */,
 				15E997A92E45308D00E8F2FD /* HomeView.swift in Sources */,
 				15E997AA2E45308D00E8F2FD /* CityCardView.swift in Sources */,
 			);
@@ -356,6 +406,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"GENERATE_INFOPLIST_FILE[sdk=*]" = YES;
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -413,6 +467,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -432,6 +489,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WhatsNext---IOS-Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_TM_API_KEY = "$(TM_API_KEY)\n";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +519,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WhatsNext---IOS-Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_TM_API_KEY = "$(TM_API_KEY)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
